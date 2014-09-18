@@ -24,11 +24,11 @@ $(document).ready(function(){
     var ventanaAncho = $(window).width();
     var ventanaAlto = $(window).height();
     
-    var modalAncho = $(".modal").width();
-    var modalAlto = $(".modal").height();
+//    var modalAncho = $(".modal").width();
+//    var modalAlto = $(".modal").height();
     
-//    var modalAncho = $(".modal").outerWidth();
-//    var modalAlto = $(".modal").outerHeight();
+    var modalAncho = $(".modal").outerWidth();
+    var modalAlto = $(".modal").outerHeight();
     
     var modalTop = (ventanaAlto-modalAlto)/2;
     var modalLeft = (ventanaAncho-modalAncho)/2;
